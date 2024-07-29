@@ -16,14 +16,6 @@ app.use('/',userRoutes)
 
 
 
-// app.use('/createUser',userRoutes)
-// app.use('/createUser',userRoutes)
-// app.get('/',(req,res)=>res.send("welcome"));
-
-
-
-
-
 app.listen(port),()=>{
-  console.log(`running ${port}`);
+  console.log(`Our Port Running On ${port}`);
 };
