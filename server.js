@@ -5,14 +5,8 @@ import userRoutes from './routes/users.js'
  
 
 const app = express();
-const port = 3001;
+const port = 5001;
 
-app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
-
-
-app.use('/',userRoutes)
 
 
 
